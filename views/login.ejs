@@ -1,0 +1,16 @@
+<% include ./partials/header %>
+
+<div class="container ">
+        <h1>  This is Log in  </h1>
+<form action = "/login" method = "post">
+    <input type = "text" name = "username" placeholder = "name">
+    <input type = "password" name = "password" placeholder = "password">
+   <button class="btn btn-primary">Login</button>
+</form><br>
+
+
+<a href="/auth/google" class="btn btn-md btn-primary">Google Log in</a>
+<a href="/facebook/auth" class="btn btn-md btn-primary">Facebook Log in</a>
+
+</div>
+<% include ./partials/footer  %>
